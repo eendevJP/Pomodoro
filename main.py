@@ -10,7 +10,7 @@ for i in range(4):
         print("" + temporizador, end="\r")
         time.sleep(1)
         tempo -= 1
-    print('Hora de Trabalhar!!')
+    print('Descanso!!')
     tempo = 5 * 60
     while tempo:
         minutos = tempo // 60
@@ -19,4 +19,4 @@ for i in range(4):
         print("" + temporizador, end="\r")
         time.sleep(1)
         tempo -= 1
-    print("Descanso")
+    print("Hora de Trabalhar!!")
